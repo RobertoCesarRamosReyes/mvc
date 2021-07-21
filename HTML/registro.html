@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ejemplo MVC</title>
+
+  <!-- PLUGINS CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- FIN PLUGINS CSS -->
+
+  <!-- PLUGINS JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/d102209864.js" crossorigin="anonymous"></script>
+  <!-- FIN PLUGINS JS -->
+
+</head>
+<body>
+<!-- Logotipo -->
+<div class="container-fluid">
+  <h3 class="text-center py-3">LOGO</h3>
+</div>
+
+<!-- Botonera -->
+<div class="container-fluid bg-light">
+  <div class="container">
+    <ul class="nav nav-justified py-2 nav-pills">
+      <li class="nav-link"><a href=index.php?pagina=registro" class="nav-link active">Registro</a></li>
+      <li class="nav-link"><a href=index.php?pagina=ingreso" class="nav-link"></a>Ingreso</li>
+      <li class="nav-link"><a href="index.php?pagina=inicio" class="nav-link"></a>Inicio</li>
+      <li class="nav-link"><a href="index.php?pagina=salir" class="nav-link"></a>Salir</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Tabla de usuarios -->
+<div class="container-fluid">
+  <div class="container py-5">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
+</body>
+</html>
